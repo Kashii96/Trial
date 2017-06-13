@@ -1,0 +1,23 @@
+.box{ 
+
+border-style:solid;
+border-color: black;
+border-size:10px;
+height:100%;
+width:300px;
+float:left;
+margin-left : 10px;
+}
+
+ul li{
+	list-style-type:none;
+	display:inline-block;
+}
+
+
+
+body{
+    width:200%;
+	overflow-x:scroll;
+	overflow-y:hidden;
+}
