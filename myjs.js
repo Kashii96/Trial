@@ -11,7 +11,13 @@ $(document).ready(function(){
 
 	$("body").click(function(){
 		$(".box").stop();
-	});
+	}); 
+
+	//comment
+
+	$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
 
 
 });
