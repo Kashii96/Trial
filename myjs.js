@@ -13,7 +13,6 @@ $(document).ready(function(){
 		$(".box").stop();
 	}); 
 
-	//comment
 
 	$(document).bind("contextmenu",function(e) {
  e.preventDefault();
