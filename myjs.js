@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$(".box").hover(function() {
 		/* Stuff to do when the mouse enters the element */
 		//$(this).css("width","400px");
@@ -8,15 +9,16 @@ $(document).ready(function(){
 		$(this).animate({width:"300px"}, 200)
 	});
 
-
-	$("body").click(function(){
-		$(".box").stop();
-	}); 
-
-
-	$(document).bind("contextmenu",function(e) {
- e.preventDefault();
 });
 
 
-});
+$(window).scroll(function(){
+		var $left=$(window).scrollLeft();
+		var $last=$(".las").offset().left;
+		
+
+		//$("body").css("width", $last +"px");
+
+		console.log($last);
+
+	});
